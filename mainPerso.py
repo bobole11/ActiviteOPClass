@@ -9,5 +9,7 @@ p = perso.Personne("Golo", "Bala", 55)
 p.affichage()
 
 p1 = perso.Personne("Nokhe", "Dinho", 23)
-p2  = p.add(p1)
+#p2  = p.add(p1)
+p1.affichage()
+p2= p1
 p2.affichage()
