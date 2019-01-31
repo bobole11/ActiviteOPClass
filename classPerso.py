@@ -8,3 +8,6 @@ class Personne:
 
 	def __repr__(self):
 		print("Nom: {}, Premom: {} et Age: {}".format(self.nom, self.prenom, self.age))
+
+	def affichage(self):
+		print("Nom: {}, Premom: {} et Age: {}".format(self.nom, self.prenom, self.age))
