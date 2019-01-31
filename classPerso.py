@@ -11,3 +11,12 @@ class Personne:
 
 	def affichage(self):
 		print("Nom: {}, Premom: {} et Age: {}".format(self.nom, self.prenom, self.age))
+
+	#def add(self, p):
+		#tmp = []
+		#perso = Personne()
+		#for el in self.items():
+			#tmp.append(el)
+		#for el in p:
+		#	tmp.append(el)
+		#return tmp
